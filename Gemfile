@@ -18,6 +18,12 @@ group :development, :test do
 end
 
 group :development do
+  gem 'bullet'
+  gem 'meta_request'
+  gem 'guard'
+  gem 'guard-bundler', require: false
+  gem 'guard-rails', require: false
+  gem 'rails_best_practices'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
